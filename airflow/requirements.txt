@@ -1,0 +1,5 @@
+apache-airflow
+# Choose the correct version based on compatibility with your system and needs
+apache-airflow-providers-http
+apache-airflow-providers-ftp
+# Include any other specific dependencies or libraries your DAGs might need
