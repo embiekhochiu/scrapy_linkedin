@@ -12,7 +12,12 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-dag = DAG('scrapy_dag', default_args=default_args, schedule_interval= '@daily')
+dag = DAG(
+    'scrapy_dag',
+    default_args=default_args, 
+    schedule_interval= '@daily', 
+    catchup=False
+    )
 
 t1 = DockerOperator(
     task_id='run_scrapy',
