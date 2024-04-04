@@ -21,6 +21,7 @@ The element in the CSS selector might be outdated at the time you use this frame
 1. Clone the repository
    
    `git clone https://github.com/embiekhochiu/scrapy_linkedin.git`
+   
    `cd scrapy_linkedin`
    
 3. Build the docker container
