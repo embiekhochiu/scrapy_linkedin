@@ -16,13 +16,16 @@ This project is a comprehensive web scraping tool designed to extract informatio
 
 ### Installation and setup
 1. Clone the repository
+   
    `git clone https://github.com/embiekhochiu/scrapy_linkedin.git`
    `cd scrapy_linkedin`
    
 3. Build the docker container
+   
    `docker-compose build`
 
-4. Start the service
+5. Start the service
+   
    `docker-compose up`
 
 ### Customization Usage
