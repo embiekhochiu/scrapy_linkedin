@@ -5,7 +5,7 @@
 This project is a comprehensive web scraping tool designed to extract information from websites automatically and efficiently. It leverages Scrapy for the web scraping tasks, Airflow for scheduling and managing workflows, and Docker for creating a consistent and isolated environment for the tool to run in. This setup allows for scalable, reliable, and automated data extraction processes.
 
 ### Note
-The element in the CSS selector might be outdated at the time you use this framework since web pages periodically change their elements for privacy purposes. Please redirect to the web link you want to scrape to re-inspect the element
+The element in the CSS selector might be outdated at the time you use this framework since web pages periodically change their elements for privacy purposes. Please redirect to the web link you want to scrape to re-inspect the element.
 
 ### Features
 - __Scrapy Integration:__ Utilize Scrapy's powerful scraping capabilities for efficient data extraction from various websites.
